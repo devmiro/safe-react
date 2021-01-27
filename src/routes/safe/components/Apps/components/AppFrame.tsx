@@ -119,9 +119,9 @@ const AppFrame = ({ appUrl }: Props): React.ReactElement => {
 
   useEffect(() => {
     if (appIsLoading) {
-      timer.current = setTimeout(() => {
+      timer.current = Number(setTimeout(() => {
         setAppTimeout(true)
-      }, TIMEOUT)
+      }, TIMEOUT))
     } else {
       clearTimeout(timer.current)
       setAppTimeout(false)
