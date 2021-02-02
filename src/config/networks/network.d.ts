@@ -40,6 +40,8 @@ export enum ETHEREUM_NETWORK {
   MORDEN = 2,
   ROPSTEN = 3,
   RINKEBY = 4,
+  BSC = 56,
+  BSCTEST = 97,
   GOERLI = 5,
   KOVAN = 42,
   XDAI = 100,

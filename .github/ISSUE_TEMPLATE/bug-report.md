@@ -24,6 +24,7 @@ A clear and concise description of what the bug is.
    - dev (rinkeby)
    - staging (rinkeby)
    - production (mainnet)
+   - production (bsc)
    - PR #
 
 ### Steps to reproduce

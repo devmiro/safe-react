@@ -77,7 +77,9 @@ export const getGasPrice = (): number | undefined => getConfig()?.gasPrice
 export const getGasPriceOracle = (): GasPriceOracle | undefined => getConfig()?.gasPriceOracle
 
 export const getRpcServiceUrl = (): string => {
-  const usesInfuraRPC = [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY].includes(getNetworkId())
+  const usesInfuraRPC = [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY, ETHEREUM_NETWORK.BSCTEST].includes(
+    getNetworkId(),
+  )
 
   if (usesInfuraRPC) {
     return `${getConfig().rpcServiceUrl}/${INFURA_TOKEN}`

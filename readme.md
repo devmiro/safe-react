@@ -37,6 +37,10 @@ If you prefer using Mainnet ones:
 yarn start-mainnet
 ```
 
+```
+yarn start-bsc
+```
+
 ### Building
 For Rinkeby:
 ```
@@ -46,6 +50,11 @@ yarn build
 For Mainnet:
 ```
 yarn build-mainnet
+```
+
+For BSC:
+```
+yarn build-bsc
 ```
 
 
