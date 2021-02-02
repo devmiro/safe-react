@@ -1,4 +1,4 @@
-import GnosisSafeSol from '@gnosis.pm/safe-contracts/build/contracts/GnosisSafe.json'
+import GnosisSafeSol from '@vporton/safe-contracts/build/contracts/GnosisSafe.json'
 import { List, Set, Map } from 'immutable'
 import { Action, Dispatch } from 'redux'
 import { AbiItem } from 'web3-utils'
