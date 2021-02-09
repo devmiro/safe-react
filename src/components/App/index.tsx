@@ -104,8 +104,8 @@ const App: React.FC = ({ children }) => {
         This app lags behind the blockchain. Send donations to user <code>portonvictor</code> at{' '}
         <a target="_blank" rel="noreferrer noopener" href="https://evolution-host.com/clanpay.php">
           this page
-        </a>{' '}
-        in order to upgrade this server regularly! Also note, we rely on peer nodes for the displayed information.
+        </a>
+        , otherwise this server will stop working! Also note, we rely on peer nodes for the displayed information.
       </div>
       <Backdrop isOpen={isWrongNetwork} />
       <SnackbarProvider
