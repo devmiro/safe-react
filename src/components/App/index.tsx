@@ -100,6 +100,13 @@ const App: React.FC = ({ children }) => {
 
   return (
     <Frame>
+      <div style={{ background: 'red', color: 'white' }}>
+        This app lags behind the blockchain. Send donations to user <code>portonvictor</code> at{' '}
+        <a target="_blank" rel="noreferrer noopener" href="https://evolution-host.com/clanpay.php">
+          this page
+        </a>{' '}
+        in order to upgrade this server regularly!
+      </div>
       <Backdrop isOpen={isWrongNetwork} />
       <SnackbarProvider
         anchorOrigin={{ vertical: 'top', horizontal: 'right' }}

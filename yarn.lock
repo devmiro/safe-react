@@ -3693,10 +3693,10 @@
     "@restless/sanitizers" "^0.2.5"
     reactive-properties "^0.1.11"
 
-"@vporton/safe-contracts@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@vporton/safe-contracts/-/safe-contracts-1.2.0.tgz#6a43f3ac9665cc37436b67ff8ad9649c917d43aa"
-  integrity sha512-RNeOfKumsyiq5Mb4GnCpTgSwfVVxUb4NK1/YaGoFCXMVcwdSMOetLXrzog+FD4PFhz3qhUKyfie4VZGfchyP/A==
+"@vporton/safe-contracts@^1.2.0-2":
+  version "1.2.0-2"
+  resolved "https://registry.yarnpkg.com/@vporton/safe-contracts/-/safe-contracts-1.2.0-2.tgz#da76a66ada6dfaccf1859e0effbff32b11049712"
+  integrity sha512-d/I4SvtXVIeRgF7Dw66jXRDQvvUpD+4FZ9iZm3I1t5WnTMzEP4WaCC2cwxNaDBvb+Mt5Qjzhy0K68zqF9FhElA==
   dependencies:
     "@truffle/hdwallet-provider" "^1.0.0"
     dotenv "^8.0.0"
