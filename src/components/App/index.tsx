@@ -105,7 +105,7 @@ const App: React.FC = ({ children }) => {
         <a target="_blank" rel="noreferrer noopener" href="https://evolution-host.com/clanpay.php">
           this page
         </a>{' '}
-        in order to upgrade this server regularly!
+        in order to upgrade this server regularly! Also note, we rely on peer nodes for the displayed information.
       </div>
       <Backdrop isOpen={isWrongNetwork} />
       <SnackbarProvider
