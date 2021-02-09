@@ -55,7 +55,7 @@ const Footer = (): React.ReactElement => {
 
   return (
     <footer className={classes.footer}>
-      <span className={classes.item}>©{date.getFullYear()} Gnosis</span>
+      <span className={classes.item}>©{date.getFullYear()} Victor Porton</span>
       <span className={classes.sep}>|</span>
       <Link className={cn(classes.item, classes.link)} target="_blank" to="https://gnosis-safe.io/terms">
         Terms
