@@ -101,11 +101,13 @@ const App: React.FC = ({ children }) => {
   return (
     <Frame>
       <div style={{ background: 'red', color: 'white' }}>
-        This app lags behind the blockchain. Send donations to user <code>portonvictor</code> at{' '}
+        This app lags behind the blockchain. Send donations to user <code>portonvictor</code> at
+        {' '}
         <a target="_blank" rel="noreferrer noopener" href="https://evolution-host.com/clanpay.php">
           this page
-        </a>
-        , otherwise this server will stop working! Also note, we rely on peer nodes for the displayed information.
+        </a> to make it catch up, if you don't donate, this server will stop working!
+        {' '}
+        Also note, we rely on peer nodes for the displayed information.
       </div>
       <Backdrop isOpen={isWrongNetwork} />
       <SnackbarProvider
