@@ -1,5 +1,9 @@
 # Gnosis Safe Multisig
 
+This is the version for Binance Smart Chain. Use it at:
+
+https://smart-binance.portonvictor.org
+
 The most trusted platform to store digital assets on Ethereum
 
 ## Getting Started
@@ -27,31 +31,12 @@ Install dependencies for the project:
 yarn install
 ```
 
-For using the Rinkeby services:
-```
-yarn start
-```
-
-If you prefer using Mainnet ones:
-```
-yarn start-mainnet
-```
-
+For using the BSC services:
 ```
 yarn start-bsc
 ```
 
 ### Building
-For Rinkeby:
-```
-yarn build
-```
-
-For Mainnet:
-```
-yarn build-mainnet
-```
-
 For BSC:
 ```
 yarn build-bsc
