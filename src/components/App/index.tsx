@@ -108,6 +108,8 @@ const App: React.FC = ({ children }) => {
         </a> to make it catch up, if you don't donate, this server will stop working!
         {' '}
         Also note, we rely on peer nodes for the displayed information.
+        {' '}
+        Prices in dollars are currently wrong.
       </div>
       <Backdrop isOpen={isWrongNetwork} />
       <SnackbarProvider

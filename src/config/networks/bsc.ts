@@ -1,4 +1,4 @@
-import EtherLogo from 'src/config/assets/token_eth.svg'
+import BNBLogo from 'src/config/assets/token_bnb.svg'
 import { EnvironmentSettings, ETHEREUM_NETWORK, NetworkConfig } from 'src/config/networks/network.d'
 
 const baseConfig: EnvironmentSettings = {
@@ -39,7 +39,7 @@ const bsc: NetworkConfig = {
       name: 'BNB',
       symbol: 'BNB',
       decimals: 18,
-      logoUri: EtherLogo, // FIXME
+      logoUri: BNBLogo, // FIXME
     },
   },
 }
