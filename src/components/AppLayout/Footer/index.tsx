@@ -81,11 +81,7 @@ const Footer = (): React.ReactElement => {
         Preferences
       </GnoButtonLink>
       <span className={classes.sep}>|</span>
-      <Link
-        className={cn(classes.item, classes.link)}
-        target="_blank"
-        to="https://github.com/gnosis/safe-react/releases"
-      >
+      <Link className={cn(classes.item, classes.link)} target="_blank" to="https://github.com/vporton/safe-react">
         {appVersion}
       </Link>
     </footer>
