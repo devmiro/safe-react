@@ -4,6 +4,9 @@ This is the version for Binance Smart Chain. Use it at:
 
 https://smart-binance.portonvictor.org
 
+The 1.2.0 contracts [deployment](https://github.com/vporton/safe-contracts/blob/bsc/DEPLOYMENT.md).
+
+
 The most trusted platform to store digital assets on Ethereum
 
 ## Getting Started
