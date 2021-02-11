@@ -103,7 +103,7 @@ export const staticAppsList: Array<StaticAppInfo> = [
       ETHEREUM_NETWORK.ENERGY_WEB_CHAIN,
       ETHEREUM_NETWORK.VOLTA,
       ETHEREUM_NETWORK.XDAI,
-      ETHEREUM_NETWORK.BSC,
+      //ETHEREUM_NETWORK.BSC,
     ],
   },
   // Wallet-Connect
@@ -116,7 +116,7 @@ export const staticAppsList: Array<StaticAppInfo> = [
       ETHEREUM_NETWORK.ENERGY_WEB_CHAIN,
       ETHEREUM_NETWORK.VOLTA,
       ETHEREUM_NETWORK.XDAI,
-      ETHEREUM_NETWORK.BSC,
+      //ETHEREUM_NETWORK.BSC,
     ],
   },
   // Yearn Vaults
@@ -124,6 +124,12 @@ export const staticAppsList: Array<StaticAppInfo> = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9`,
     disabled: false,
     networks: [ETHEREUM_NETWORK.MAINNET],
+  },
+  // Bequest
+  {
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmStjBfQzWNVTgpCaMVUGiH5X7Z4fAZrgsaKpua54S9EvF`,
+    disabled: false,
+    networks: [ETHEREUM_NETWORK.BSC, ETHEREUM_NETWORK.RINKEBY],
   },
 ]
 
