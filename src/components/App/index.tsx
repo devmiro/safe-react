@@ -101,13 +101,19 @@ const App: React.FC = ({ children }) => {
   return (
     <Frame>
       <div style={{ background: 'red', color: 'white' }}>
-        Send donations to user <code>portonvictor</code> at
-        {' '}
+        Send donations to user <code>portonvictor</code> at{' '}
         <a target="_blank" rel="noreferrer noopener" href="https://evolution-host.com/clanpay.php">
           this page
-        </a>, if you don't donate, this server will stop working!
-        {' '}
-        Also note, we rely on peer nodes for the displayed information.
+        </a>
+        , if you don&apos;t donate, this server will stop working! Also note, we rely on peer nodes for the displayed
+        information.{' '}
+        <strong>
+          This site (except of the apps) is production quality and you are safe putting here you money. All contracts
+          (the same sources as on the official Gnosis Safe 1.2.0) are verified on{' '}
+          <a target="_blank" rel="noreferrer noopener" href="https://bscscan.com">
+            BscScan.com
+          </a>
+        </strong>
       </div>
       <Backdrop isOpen={isWrongNetwork} />
       <SnackbarProvider
