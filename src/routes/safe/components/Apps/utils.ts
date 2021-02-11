@@ -103,6 +103,7 @@ export const staticAppsList: Array<StaticAppInfo> = [
       ETHEREUM_NETWORK.ENERGY_WEB_CHAIN,
       ETHEREUM_NETWORK.VOLTA,
       ETHEREUM_NETWORK.XDAI,
+      ETHEREUM_NETWORK.BSC,
     ],
   },
   // Wallet-Connect
@@ -115,6 +116,7 @@ export const staticAppsList: Array<StaticAppInfo> = [
       ETHEREUM_NETWORK.ENERGY_WEB_CHAIN,
       ETHEREUM_NETWORK.VOLTA,
       ETHEREUM_NETWORK.XDAI,
+      ETHEREUM_NETWORK.BSC,
     ],
   },
   // Yearn Vaults
