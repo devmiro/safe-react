@@ -56,7 +56,8 @@ const Footer = (): React.ReactElement => {
   return (
     <footer className={classes.footer}>
       <strong>
-        For this site all the terms (with any relevant necessary changes) apply to Victor Porton instead of Gnosis Ltd.
+        For this site all the terms (with any relevant necessary changes) apply to Victor Porton (under the Israel law)
+        instead of Gnosis Ltd.
       </strong>
       &nbsp;
       <span className={classes.item}>©{date.getFullYear()} Victor Porton</span>
