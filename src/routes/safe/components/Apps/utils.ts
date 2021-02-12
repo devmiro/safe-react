@@ -127,7 +127,7 @@ export const staticAppsList: Array<StaticAppInfo> = [
   },
   // Bequest
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmWH5pgV5zBXirExbmpJ6c8g3CGDivXsbzAwmixRXx5e1o`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmRLE5Kkm71zdbrzPwowrew4KfDuHfzHwvznc4dDJGGYRm`,
     disabled: false,
     networks: [ETHEREUM_NETWORK.BSC, ETHEREUM_NETWORK.RINKEBY],
   },
