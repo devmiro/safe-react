@@ -1,4 +1,4 @@
-# Gnosis Safe Multisig
+# Wise Safe Multisig
 
 This is the version for Binance Smart Chain. Use it at:
 

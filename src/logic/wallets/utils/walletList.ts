@@ -43,7 +43,7 @@ const wallets: Wallet[] = [
   {
     walletName: WALLETS.LATTICE,
     rpcUrl,
-    appName: 'Gnosis Safe',
+    appName: 'Wise Safe',
     desktop: false,
   },
   {

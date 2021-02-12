@@ -77,15 +77,15 @@ export const WelcomeLayout = ({ isOldMultisigMigration }: Props): React.ReactEle
     <Block>
       {/* Title */}
       <Title size="md" strong>
-        Welcome to Gnosis Safe Multisig for Binance Smart Chain.
+        Welcome to Wise Safe Multisig (a fork of Gnosis Safe Multsig) for Binance Smart Chain.
       </Title>
 
       {/* Subtitle */}
       <Title size="xs">
         {isOldMultisigMigration ? (
           <>
-            We will replicate the owner structure from your existing Gnosis MultiSig to let you test the new interface.
-            As soon as you feel comfortable, start moving funds to your new Safe.
+            We will replicate the owner structure from your existing Wise MultiSig to let you test the new interface. As
+            soon as you feel comfortable, start moving funds to your new Safe.
           </>
         ) : (
           <>
@@ -108,7 +108,7 @@ export const WelcomeLayout = ({ isOldMultisigMigration }: Props): React.ReactEle
               </StyledTitle>
             </TitleWrapper>
             <Text size="xl">
-              Gnosis Safe Multisig supports a wide range of wallets that you can choose to be one of the authentication
+              Wise Safe Multisig supports a wide range of wallets that you can choose to be one of the authentication
               factors.
             </Text>
             <StyledButtonLink textSize="xl" color="primary" iconType="externalLink" iconSize="sm">
