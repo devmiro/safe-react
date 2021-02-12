@@ -55,6 +55,10 @@ const Footer = (): React.ReactElement => {
 
   return (
     <footer className={classes.footer}>
+      <strong>
+        For this site all the terms (with any relevant necessary changes) apply to Victor Porton instead of Gnosis Ltd.
+      </strong>
+      <br />
       <span className={classes.item}>©{date.getFullYear()} Victor Porton</span>
       <span className={classes.sep}>|</span>
       <Link className={cn(classes.item, classes.link)} target="_blank" to="https://gnosis-safe.io/terms">
