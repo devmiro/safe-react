@@ -195,7 +195,7 @@ const CookiesBanner = () => {
   )
 
   if (showAnalytics) {
-    loadIntercom()
+    //    loadIntercom()
     loadGoogleAnalytics()
   }
   if (isDesktop) loadIntercom()
