@@ -105,8 +105,7 @@ const App: React.FC = ({ children }) => {
         <a target="_blank" rel="noreferrer noopener" href="https://evolution-host.com/clanpay.php">
           this page
         </a>
-        , if you don&apos;t donate, this server will stop working! Also note, we rely on peer nodes for the displayed
-        information.{' '}
+        , if you don&apos;t donate, this server will stop working!{' '}
         <strong>
           This site is production quality and you are safe putting here your money. All contracts (the same sources as
           on the official Gnosis Safe 1.2.0) are verified on{' '}
