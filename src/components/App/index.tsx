@@ -112,6 +112,7 @@ const App: React.FC = ({ children }) => {
           <a target="_blank" rel="noreferrer noopener" href="https://bscscan.com">
             BscScan.com
           </a>
+          . This site relies on other nodes for the displayed information.
         </strong>
       </div>
       <Backdrop isOpen={isWrongNetwork} />
