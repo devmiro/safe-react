@@ -101,7 +101,7 @@ const App: React.FC = ({ children }) => {
   return (
     <Frame>
       <div style={{ background: 'red', color: 'white' }}>
-        Send donations to user <code>portonvictor</code> at{' '}
+        THE SITE DOES NOT WORK! Send donations to user <code>portonvictor</code> at{' '}
         <a target="_blank" rel="noreferrer noopener" href="https://evolution-host.com/clanpay.php">
           this page
         </a>
